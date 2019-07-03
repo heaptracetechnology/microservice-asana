@@ -17,7 +17,7 @@ An OMG service for asana, it designed to help teams organize, track, and manage 
 ##### Create Task
 ```coffee
 >>> asana createTask name:'name' notes:'notes' projectId:'projectId' assignee:'assignee' workspace: 'workspaceId' followers: '[abc@example.com,xyz@example.com]' hearted: 'true/false'
-{"id": "taskId","assignee": {"assigneeDetails"},"followers": ["followersList"],"hearted": "true/false","name": "taskName","notes": "taskNotes","projects": ["projectDetails"],"workspace": "workspaceDetails"}}
+{"id": "taskId","assignee": {"assigneeDetails"},"followers": ["followersList"],"hearted": "true/false","name": "taskName","notes": "taskNotes","projects": ["projectDetails"],"workspace": {"workspaceDetails"}}
 ```
 ##### Delete Project
 ```coffee
